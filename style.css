@@ -1,46 +1,7 @@
 
 
 
-.parallax1{
-	background-image: url("img/pallarax1.png");
-	width: 100%;
-	height: auto;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-
-.parallax2{
-	background-image: url("img/pallarax2.png");
-	width: 100%;
-	height: auto;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-
-.parallax3{
-	background-image: url("img/pallarax3.png");
-	width: 100%;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-@media only screen and (max-device-width: 500px) {
-  .parallax, .parallax2, .parallax3 {
-    background-attachment: scroll;
-    background-position: center;
-    background-size: 100%;
-
-  }
-}
-body {
+ body {
 	font-family:"Roboto", sans-serif;
 	font-weight: 300;
 
@@ -94,16 +55,11 @@ p{
     margin-right: 10px;
     margin-left: 10px;
 }
-#margen{
-	margin-right:30px;
-    margin-left: 30px;
-    margin-top: 30px;
 
-}
-
- .esconder {
+.esconder {
    	display: none;
  }
+
 
  div.col-12 img{
 	width:100%;
@@ -111,6 +67,59 @@ p{
 }
 
 
+.parallax{
+	background-image: url("img/fondo.png");
+	background-repeat: no-repeat;
+ 	width:100%;
+ 	height: auto;
+ 	background-size: 100%;
+	padding-top: 0vh; /* 1:1 Aspect Ratio */
+	  /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	
+}
+.parallax1{
+	background-image: url("img/pallarax1.png");
+	width: 100%;
+	height: auto;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.parallax2{
+	background-image: url("img/pallarax2.png");
+	width: 100%;
+	height: auto;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.parallax3{
+	background-image: url("img/pallarax3.png");
+	width: 100%;
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+#margen{
+	margin-right:10vw;
+    margin-left: 10vw;
+    margin-top: 30px;
+}
+#margentitulo{
+	margin-right:30px;
+    margin-left: 30px;
+    margin-top: 10vh;
+}
 
 
 .portada img{
@@ -132,10 +141,42 @@ p{
 	height:auto;
 }
 
-
-
 .barraparallax {
      width:1920px;
      height:100px;
      background:white;
 }
+
+.borrar {
+     height:25%;
+     background-image: url("img/inicio2.png");
+     background-size: 100%;
+     background-position: center;
+
+}
+
+@media only screen and (max-device-width: 500px) {
+	.barraparallax {
+    display: none;
+  }
+	.parallax1, .parallax2, .parallax3 {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 100%;
+
+  }
+	#margentitulo{
+    margin-right:20px;
+    margin-left: 0px;
+    margin-top: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
