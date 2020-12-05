@@ -9,29 +9,26 @@
 
 h1 {
 	font-family:"Bitter", serif;
-	font-weight: 600;
-	font-size:5vw;
+	font-weight: 700;
+	font-size:3.5em;
 	text-align: center;
-	color:black;
+	color:white;
 }
-
-
 
 h2{
 	font-style: italic;
 	font-weight: 300;
-	font-size:1.5rem;
+	font-size:1.9em;
 	text-align: center;
 	color:#4f4f4f;
 }
 
-h3 {
+h3 {/* titulos*/
 	font-family: "Roboto", serif;
-	font-weight: 500;
-	font-size:1.5rem;
+	font-weight: 550;
+	font-size:1.6em;
 	text-align: center;
-
-}
+  }
 
 h4 {
 	font-family: "Roboto", sans-serif;
@@ -42,7 +39,7 @@ h4 {
 h5 {
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
-	font-size:0.9rem;
+	font-size:1.2em;
 	text-align: center;
 	color:#a5d6a3;
 }
@@ -50,22 +47,68 @@ h5 {
 p{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size:1rem;
+    font-size:1.3em;
     color: #888;
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.esconder {
-   	display: none;
- }
 
+@media only screen and (max-device-width: 576px) {
+	h1{ font-size: 3em; }/* TITULO*/
+	h2{ font-size: 1.2em; }/* subtitulo*/
+	h3{ font-size: 1.5em; } /* titulos*/
+	h5{ font-size: 1.1em; }/*minitexto verde*/
+	p{ font-size: 1em; }
+	
+}
 
- div.col-12 img{
+p.info{
+	font-weight: 200;
+	font-size:1em;
+	text-align: center;
+	margin-right: 0px;
+    margin-left: 0px;
+
+	
+}
+div.col-12 img{
 	width:100%;
 	height:auto;
 }
 
+
+#margen{
+	margin-right:10vw;
+    margin-left: 10vw;
+    margin-top: 30px;
+}
+#margentitulo{
+	margin-right:30px;
+    margin-left: 30px;
+    margin-top: 10vh;
+}
+#mapa1 {
+	position: center;
+	width:80vw;
+	height:70vh;
+
+}
+#mapa2{
+	position: center;
+	width:90vw; 
+	height:60vh;
+}
+.cuadrado{
+	height:10vh;
+	width: auto;
+	background:#428bca;
+	border:3px solid #555;
+}
+
+.esconder {
+   	display: none;
+ }
 
 .parallax{
 	background-image: url("img/fondo.png");
@@ -76,7 +119,7 @@ p{
 	padding-top: 0vh; /* 1:1 Aspect Ratio */
 	  /* Create the parallax scrolling effect */
 	background-attachment: fixed;
-	
+
 }
 .parallax1{
 	background-image: url("img/pallarax1.png");
@@ -110,61 +153,80 @@ p{
 	background-size: 50%;
 }
 
-#margen{
-	margin-right:10vw;
-    margin-left: 10vw;
-    margin-top: 30px;
-}
-#margentitulo{
-	margin-right:30px;
-    margin-left: 30px;
-    margin-top: 10vh;
-}
-
 
 .portada img{
 	width:100%;
 	height: auto;
 }
 .icono img{
-	width:20%;
+	width:30%;
 	height:auto;
 }
-.ilustracion img{
+/*.ilustracion img{
 	width: 30%;
 	height:auto;
-}
-.imgcaracteristicas img{
+}*/
+.imgmapa1 img{
 	display:block;
-  margin:auto;
+  	margin:auto;
+	width: 70%;
+	height:auto;
+}
+.imgcaracteristicas_web img{
+	display:block;
+  	margin:auto;
 	width: 50%;
 	height:auto;
 }
-
 .barraparallax {
-     width:1920px;
-     height:100px;
+     width:100%;
+     height:8vh;
+     background:white;
+}
+
+
+/*.barra_grande {
+     width:100%;
+     height:200px;
+     background:blue;
+}*/
+
+.barra_mediana {
+     width:100%;
+     height:15vh;
+     background:white;
+}
+
+.barra_pequeña {
+     width:100%;
+     height:5vh;
      background:white;
 }
 
 .borrar {
-     height:25%;
+	width:100%;
+    height:auto;
+
      background-image: url("img/inicio2.png");
      background-size: 100%;
      background-position: center;
-
+     background-attachment: fixed;
+     background-repeat: repeat;
 }
 
+
+
 @media only screen and (max-device-width: 500px) {
-	.barraparallax {
-    display: none;
-  }
 	.parallax1, .parallax2, .parallax3 {
-    background-attachment: scroll;
     background-position: center;
     background-size: 100%;
 
   }
+	
+ 	.barraparallax {
+    display: none;
+  }
+
 	#margentitulo{
     margin-right:20px;
     margin-left: 0px;
@@ -172,11 +234,3 @@ p{
 	}
 
 }
-
-
-
-
-
-
-
-
