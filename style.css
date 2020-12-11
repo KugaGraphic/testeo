@@ -1,261 +1,280 @@
-
-
-
- body {
-	font-family:"Roboto", sans-serif;
-	font-weight: 300;
-
-}
-
-h1 {
-	font-family:"Bitter", serif;
-	font-weight: 700;
-	font-size:3.5em;
-	text-align: center;
-	color:white;
-}
-
-h2{
-	font-style: italic;
-	font-weight: 300;
-	font-size:1.9em;
-	text-align: center;
-	color:#4f4f4f;
-}
-
-h3 {/* titulos*/
-	font-family: "Roboto", serif;
-	font-weight: 550;
-	font-size:1.6em;
-	text-align: center;
-  }
-
-h4 {
-	font-family: "Roboto", sans-serif;
-	font-weight: 300;
-	font-size:1.2rem;
-}
-
-h5 {
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-	font-size:1.2em;
-	text-align: center;
-	color:#a5d6a3;
-}
-
-p{
+html, 
+body { /* Este código afecta a toda la web. Al quitarlo se borra el inicio */
+    width: 100%;
+    height: 100%;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size:1.3em;
-    color: #888;
-    margin-right: 10px;
-    margin-left: 10px;
+    font-weight: 300;
+    color: white;
+    background: #a1cca1;;
 }
 
-
-@media only screen and (max-device-width: 576px) {
-	h1{ font-size: 3em; }/* TITULO*/
-	h2{ font-size: 1.2em; }/* subtitulo*/
-	h3{ font-size: 1.5em; } /* titulos*/
-	h5{ font-size: 1.1em; }/*minitexto verde*/
-	p{ font-size: 1em; }
-	
+h1,
+h2,
+h3,
+h4,
+h5 {
+     font-family: "Bitter", serif;
 }
 
-p.info{
-	font-weight: 200;
-	font-size:1em;
-	text-align: center;
-	margin-right: 0px;
-    margin-left: 0px;
-
-	
-}
-div.col-12 img{
-	width:100%;
-	height:auto;
+header#slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
-
-#margen{
-	margin-right:10vw;
+div#content-images-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.image-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+div.text-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ .texto_inicio_padre {
+    width: 80%;
+    height: 55%;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+#margen {
+    margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 30px;
 }
-#margentitulo{
-	margin-right:30px;
-    margin-left: 30px;
-    margin-top: 10vh;
+#margentitulo {
+     margin-right: 30px;
+     margin-left: 30px;
+     margin-top: 10vh;
 }
 #mapa1 {
-	position: center;
-	width:80vw;
-	height:70vh;
-
+    position: center;
+    width: 80vw;
+    height: 70vh;
 }
-#mapa2{
-	position: center;
-	width:90vw; 
-	height:60vh;
+#mapa2 {
+     position: center;
+     width: 90vw;
+     height: 60vh;
 }
-.cuadrado{
-	height:10vh;
-	width: auto;
-	background:#428bca;
-	border:3px solid #555;
+.cuadrado {
+     height: 10vh;
+     width: auto;
+     background: #428bca;
+     border: 3px solid #555;
 }
-
 .esconder {
-   	display: none;
- }
-#bloque {
- /*	background-image: url("img/montaña.png");*/
- }
-section{
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 100%;
-	margin: 0 auto;
-	overflow: hidden;
-	padding:0;
-	position: relative;
-	width: 100%;
-
-}
-
-.parallax{
-	background-image: url("img/montaña.png");
-	height: 30vh;
-	width: 100%;
-
-	
-	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: 100%;
-
-	/*
-
- 	width:100%;
- 	height: auto;
- 	background-size: 100%;
-	padding-top: 0vh;  1:1 Aspect Ratio */
-	  
-	
-
-}
-.parallax1{
-	background-image: url("img/pallarax1.png");
-	width: 100%;
-	height: auto;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-
-.parallax2{
-	background-image: url("img/pallarax2.png");
-	width: 100%;
-	height: auto;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-
-.parallax3{
-	background-image: url("img/pallarax3.png");
-	width: 100%;
-	padding-top: 100%; /* 1:1 Aspect Ratio */
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 50%;
-}
-
-
-.portada img{
-	width:100%;
-	height: auto;
-}
-.icono img{
-	width:30%;
-	height:auto;
-}
-/*.ilustracion img{
-	width: 30%;
-	height:auto;
-}*/
-.imgmapa1 img{
-	display:block;
-  	margin:auto;
-	width: 70%;
-	height:auto;
-}
-.imgcaracteristicas_web img{
-	display:block;
-  	margin:auto;
-	width: 50%;
-	height:auto;
-}
-.barraparallax {
-     width:100%;
-     height:8vh;
-     background:white;
-}
-
-
-/*.barra_grande {
-     width:100%;
-     height:200px;
-     background:blue;
-}*/
-
-.barra_mediana {
-     width:100%;
-     height:15vh;
-     background:white;
-}
-
-.barra_pequeña {
-     width:100%;
-     height:5vh;
-     background:white;
-}
-
-.borrar {
-	width:100%;
-    height:auto;
-
-     background-image: url("img/inicio2.png");
-     background-size: 100%;
-     background-position: center;
-     background-attachment: fixed;
-     background-repeat: repeat;
-}
-
-
-
-@media only screen and (max-device-width: 500px) {
-	.parallax1, .parallax2, .parallax3 {
-    background-position: center;
-    background-size: 100%;
-
-  }
-	
- 	.barraparallax {
     display: none;
-  }
-
-	#margentitulo{
-    margin-right:20px;
-    margin-left: 0px;
-    margin-top: 0;
-	}
-
 }
+#bloque {
+   background-image: url("img/montaña.png");
+ }
+section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+ }
+.parallax {
+    background-image: url("img/montaña.png");
+    height: 30vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.parallax1 {
+     background-image: url("img/pallarax1.png");
+     width: 100%;
+     height: auto;
+     padding-top: 100%; /* 1:1 Aspect Ratio */
+     background-attachment: fixed;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-size: 50%;
+ }
+.parallax2 {
+     background-image: url("img/pallarax2.png");
+     width: 100%;
+     height: auto;
+     padding-top: 100%; /* 1:1 Aspect Ratio */
+     background-attachment: fixed;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-size: 50%;
+ }
+ .parallax3 {
+     background-image: url("img/pallarax3.png");
+     width: 100%;
+     padding-top: 100%; /* 1:1 Aspect Ratio */
+     background-attachment: fixed;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-size: 50%;
+ }
+ .portada img {
+     width: 100%;
+     height: auto;
+ }
+ .icono img {
+     width: 30%;
+     height: auto;
+ }
+ .imgmapa1 img {
+     display: block;
+     margin: auto;
+     width: 70%;
+     height: auto;
+ }
+ .imgcaracteristicas_web img {
+     display: block;
+     margin: auto;
+     width: 50%;
+     height: auto;
+ }
+ .barraparallax {
+    width: 100%;
+    height: 8vh;
+    background: white;
+ }
+ .barra_mediana {
+    width: 100%;
+    height: 15vh;
+    background: white;
+ }
+.barra_pequeña {
+    width: 100%;
+    height: 5vh;
+    background: white;
+ }
+ .borrar {
+    width: 100%;
+    height: auto;
+    background-image: url("img/inicio2.png");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+ }
+ /* INICIO efecto hover */
+ .hover:hover .overlay {
+     opacity: 1;
+ }
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: 0.5s ease;
+     background-color: #008cba;
+ }
+ /* FIN efecto hover */
+ /* INICIO Gráficos */
+ .morado {
+     color: #7e00e7;
+ }
+ img.artesanal {
+     -webkit-filter: grayscale(1);
+     filter: grayscale(1);
+     opacity: 0.75;
+ }
+ /* FIN Gráficos */
+ /* Estilo gif pumas constitución */
+ .pumas_consti_web {
+    width: auto;
+    height: 50%;
+ }
+ /* Aqui comienzan estilos divs de pirulo y puma arbol */
+ div.casos_derechos {
+     width: 100%;
+     height: auto;
+     margin: 0 0 1rem;
+     display: flex;
+     align-items: center;
+ }
+
+ div.casos_derechos img.img_derechos {
+      width: 30%;
+     height: auto;
+     margin: 20px auto;
+ }
+ .img_derechos_cel {
+      width: 100%;
+     height: auto;
+     margin-top: 10%;
+     margin-bottom: 5%;
+ }
+ .hijo_derechos {
+      font-size: 0.8rem;
+     margin-right: 5%;
+     margin-left: 5%;
+     width: 70%;
+     height: auto;
+     padding: 0.2rem;
+ }
+
+ .hijo_derechos_cel {
+      font-size: 0.9rem;
+     margin-right: 5%;
+     margin-left: 5%;
+     padding: 0.2rem;
+ }
+ /* Aqui terminan estilos divs de pirulo y puma arbol */
+@media only screen and (max-device-width: 500px) {
+    .parallax1,
+    .parallax2,
+    .parallax3 {
+         background-position: center;
+         background-size: 100%;
+     }
+ .barraparallax {
+         display: none;
+     }
+
+     #margentitulo {
+         margin-right: 20px;
+         margin-left: 0px;
+         margin-top: 0;
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+

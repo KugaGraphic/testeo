@@ -6,469 +6,536 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-
-
-
     <link rel="stylesheet" href="style.css">
     <title>Kugagraphic</title>
 
-<!--TIPOGRAFIA-->
-     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&display=swap" rel="stylesheet" />
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
-
-  </head>
-
-  <!--con col-12 la imagen se ajusta sola-->
-   <!--xs celulas; sm =tablet; md= compu-->
-    <!--con col-12 la imagen se ajusta sola-->
-    <!--<	<div class="col-12">
-			<img class="d-none d-sm-block" src="img/caractisticas_web.png">
-     		<img class="d-sm-none" src="img/caracteristicas_cel.png">
-				</div>>-->
+    <!--TIPOGRAFIA-->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+</head>
 
 
 <body>
-<header >
-    <div class= "col-12">
-        <img class="d-none d-sm-block" src="img/inicio.png">
-        <img class="d-sm-none" src="img/iniciocel.png">
-    </div>
 
-    <div class="col-xs-6 col-lg-12">
-        <div class="borrar">
-            <br>
-            <h1 > Pumas en la jungla de cemento </h1>
-            <h2 > Invasión urbana en el hábitat de la fauna nativa Chilena </h2>
-            <br>
-        </div>
-    </div>
+    <!--INICIO PARALLAX-->
+    <header id="slider">
+      <div id="content-images-slider">
+          <div class="image-slider rellax" data-rellax-speed="-8" style='background-image: url(img/inicio_nubes_fondo.gif)'></div>
+          <div class="image-slider rellax" data-rellax-speed="-8" style='background-image: url(img/inicio_montañas.png)'></div>
+          <div class="image-slider rellax" data-rellax-speed="-4" style='background-image: url(img/inicio_edificios.png)'></div>
+          <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(img/inicio_arbusto_2.png)'></div>
+          <div class="image-slider rellax" data-rellax-speed="0" style='background-image: url(img/inicio_cesped.png)'></div>
+          <div class="image-slider rellax" data-rellax-speed="2" style='background-image: url(img/inicio_puma.gif)'></div>
+          <div class="image-slider rellax" data-rellax-speed="0" style='background-image: url(img/inicio_arbusto_1.png)'></div>
+          <div class="image-slider rellax" data-rellax-speed="1"> </div>
+              <div class="texto_inicio_padre">
+                <h4 class="text-center">CONFLICTOS SOCIOAMBIENTALES</h4>
+                <h1 class="text-center"> Pumas en la jungla de cemento</h1> 
+                <h2 class="text-center"> Invasión urbana en el hábitat de la fauna nativa Chilena</h2>
+                <h5 class="text-center">Por Isabella Cabrera, Déssirée Cifuentes & Karina Melani</h5>
+              </div>
+      </div>
+    </header>
 
-<div class="barra_pequeña"> </div>
-
-  <!--TEXTO-->
-    <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-12">
-            <h5>Infografía realizada por </br> Isabella Cabrera</br> Déssirée Cifuentes </br>Karina Melani</h5>      
-        </div>
-
-
-        <div class="barra_pequeña"></div>
-
-       
-        <div class="col-sm-6 col-lg-6">
-              <p> En lo que lleva del 2020 <b>se han triplicado la cantidad de avistamientos y rescates de pumas en Santiago respecto al año anterior</b>(ADN, 2020).Si bien las ciudades estaban más vacías por la pandemia y se generaron más condiciones para que el puma no temiera aventurarse dentro de la ciudad, este es un fenómeno que observamos hace más años atrás, en distintas comunas del Gran Santiago.</p>
+    <main>
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <p class="lead">
+                <p> En lo que lleva del 2020 <b>se han triplicado la cantidad de avistamientos y rescates de pumas en Santiago respecto al año anterior</b>(ADN, 2020).Si bien las ciudades estaban más vacías por la pandemia y se generaron más condiciones para que el puma no temiera aventurarse dentro de la ciudad, este es un fenómeno que observamos hace más años atrás, en distintas comunas del Gran Santiago.</p>
+              </p>
             </div>
+            <div class="col-11 mx-auto my-5">
+              <iframe id="mapa1" class="d-none d-sm-block w-100" src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+              <iframe
+                  id="mapa2"
+                  class="d-sm-none w-100"
+                  src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v"
+                  frameborder="0"
+                  style="border: 0;"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <h3 class="my-3 text-center">¿Por qué los pumas se aventuran más y más en la ciudad?</h3>
+              <p>Según un estudio del <b>Centro UC CAPES</b> explica a través de características, hábitat y comportamientos del felino que existen distintas razones por las cuales los pumas bajan a la ciudad.</p>
+            </div>
+          </div>
+
+<!--IMAGENES CARACTERISTICAS -->
+          <div class="imgcaracteristicas_web my-5">
+             <div class="col-12 d-none d-sm-block ">
+               <figure class="bg-light">
+                  <svg x="0px" y="0px" viewBox="0 0 1920 750">
+                    <rect x="0" y="0" width="100%" height="810px" fill="#a1cca1" />
+                      <image xlink:href="img/carac_web.png" x=0 y=0 width=100% height=100% />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 1920 810" style="enable-background:new 0 0 1920 810;" xml:space="preserve">
+                           <style type="text/css">
+                            .st0{fill:none;}
+                            .st1{fill:#FFFFFF;}
+                            .st2{font-family:'Roboto';}
+                            .st3{font-size:24px;}
+                            .st4{font-size:21px;}
+                            .st5{fill:#6C876C;}
+                            .st6{fill:#B14BC9;}
+                            .st7{fill:#734ABB;}
+                           </style>
+
+                          <g id="Texto">
+                            <rect x="1331.3" y="331.7" class="st0" width="398.4" height="53.6"/>
+                            <text transform="matrix(1 0 0 1 1331.3274 349.6701)"><tspan x="0" y="0" class="st1 st2 st3">Su color es variable: entre rubio, </tspan><tspan x="0" y="28.8" class="st1 st2 st3">amarillos-grises hasta pardo-rojizo.</tspan></text>
+                            <rect x="1183.8" y="215.9" class="st0" width="438.6" height="53.6"/>
+                            <text transform="matrix(1 0 0 1 1183.8221 233.879)"><tspan x="0" y="0" class="st1 st2 st3">Solo las hembras viven con cachorros, </tspan><tspan x="0" y="28.8" class="st1 st2 st3">de lo contrario son animales solitarios.</tspan></text>
+                            <rect x="1060.8" y="88.5" class="st0" width="443" height="51.1"/>
+                            <text transform="matrix(1 0 0 1 1060.8475 106.5135)"><tspan x="0" y="0" class="st1 st2 st3">Puede medir hasta 2.8 metros de largo, </tspan><tspan x="0" y="28.8" class="st1 st2 st3">80 cms. de altura y pesar 80 kgs.</tspan></text>
+                            <rect x="198.6" y="72.5" class="st0" width="404.6" height="53.6"/>
+                            <text transform="matrix(1 0 0 1 198.5955 90.4958)"><tspan x="0" y="0" class="st1 st2 st3">Felino esbelto y ágil de gran tamaño </tspan><tspan x="0" y="28.8" class="st1 st2 st3">que habita en toda América.</tspan></text>
+                            <rect x="208.6" y="143.7" class="st0" width="306" height="26.8"/>
+                            <text transform="matrix(1 0 0 1 208.5535 159.4371)" class="st1 st2 st4">Poblaciones actuales de pumas.</text>
+                            <rect x="208.6" y="189.7" class="st0" width="331.1" height="52.4"/>
+                            <text transform="matrix(1 0 0 1 208.5535 205.4722)"><tspan x="0" y="0" class="st1 st2 st4">Poblaciones extintas o drástica</tspan><tspan x="292.5" y="0" class="st1 st2 st4">-</tspan><tspan x="0" y="25.2" class="st1 st2 st4">mentes reducidas</tspan></text>
+                          </g>
+                          <g id="Figuras">
+                            <path id="t3" class="st5" d="M1166.3,219.1c-3.6,0-6.6,2.7-7.1,6.2h-87.6v167.5h2V227.3h85.6c0.5,3.5,3.5,6.2,7.1,6.2
+                              c4,0,7.2-3.2,7.2-7.2C1173.5,222.3,1170.3,219.1,1166.3,219.1z"/>
+                            <path id="t4" class="st5" d="M1310.5,333.8c-3.6,0-6.5,2.6-7.1,6h-150.2v74.5h2v-72.5h148.1c0.4,3.6,3.4,6.4,7.1,6.4
+                              c4,0,7.2-3.2,7.2-7.2C1317.7,337,1314.5,333.8,1310.5,333.8z"/>
+                            <path id="t2" class="st5" d="M608.3,81.2c-0.5-3.5-3.5-6.3-7.2-6.3c-4,0-7.3,3.2-7.3,7.3s3.2,7.3,7.3,7.3c3.7,0,6.7-2.7,7.2-6.3
+                              h246.1v32.6h2V81.2H608.3z"/>
+                            <path id="t1" class="st5" d="M1042.1,91.3c-3.6,0-6.6,2.7-7.1,6.2h-58.2v271.6h2V99.5h56.2c0.5,3.5,3.5,6.2,7.1,6.2
+                              c4,0,7.2-3.2,7.2-7.2C1049.2,94.5,1046,91.3,1042.1,91.3z"/>
+                            <circle id="elipse2" class="st6" cx="182.9" cy="210.7" r="16.5"/>
+                            <circle id="elipse1" class="st7" cx="182.9" cy="153.1" r="16.5"/>
+                          </g>
+                        </svg>
+                  </svg>   
+                </figure>
+              </div>  
+            </div> 
+          <!--IMAGENES CARACTERISTICAS CEL-->
+            <div class="imgcaracteristicas_web my-5">
+              <div class="col-12 d-sm-none">
+                <figure class="bg-light">
+                   <svg x="0px" y="0px" viewBox="0 0 480 471.8">
+                      <rect x="0" y="0" width="480" height="471.8px" fill="#a1cca1" />
+                        <image xlink:href="img/carac_cel.png" x=0 y=0 width=100% height=100% />
+                          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  	 viewBox="0 0 480 471.8" style="enable-background:new 0 0 480 471.8;" xml:space="preserve">
+                            <style type="text/css">
+                          	.st0c{fill:#6C876C;}
+                          	.st1c{fill:none;}
+                          	.st2c{fill:#FFFFFF;}
+                          	.st3c{font-family:'Roboto';}
+                          	.st4c{font-size:18px;}
+                             </style>
+
+                          <g id="trazos">
+                          	<path id="trazo4" class="st0c" d="M205.5,351.3c-3.8,0-6.9,2.8-7.4,6.4h-25.6v2h25.6c0.5,3.6,3.6,6.4,7.4,6.4c4.1,0,7.4-3.3,7.4-7.4
+                          		S209.6,351.3,205.5,351.3z"/>
+                          	<path id="trazo3" class="st0c" d="M132,207.7h66.1c0.5-3.6,3.6-6.4,7.4-6.4c4.1,0,7.4,3.3,7.4,7.4c0,4.1-3.3,7.4-7.4,7.4
+                          		c-3.8,0-6.9-2.8-7.4-6.4H132V207.7z"/>
+                          	<path id="trazo2" class="st0c" d="M205.5,111.2c-3.8,0-6.9,2.8-7.4,6.4h-55.4v2h55.4c0.5,3.6,3.6,6.4,7.4,6.4c4.1,0,7.4-3.3,7.4-7.4
+                          		C212.9,114.5,209.6,111.2,205.5,111.2z"/>
+                          	<path id="trazo1" class="st0c" d="M198.1,28c0.5-3.6,3.6-6.4,7.4-6.4c4.1,0,7.4,3.3,7.4,7.4c0,4.1-3.3,7.4-7.4,7.4
+                          		c-3.8,0-6.9-2.8-7.4-6.4H57.9v36.2h-2V28H198.1z"/>
+                          </g>
+                          <g id="texto">
+                            <g>
+                          		<rect x="225.2" y="349.9" class="st1c" width="198.8" height="80.7"/>
+                          		<text transform="matrix(1 0 0 1 225.18 363.4455)"><tspan x="0" y="0" class="st2c st3c st4c">Solo las hembras viven </tspan><tspan x="0" y="21.6" class="st2c st3c st4c">con cachorros, de lo </tspan><tspan x="0" y="43.2" class="st2c st3c st4c">contrario son animales </tspan><tspan x="0" y="64.8" class="st2c st3c st4c">solitarios.</tspan></text>
+                            </g>
+                            <g>     
+                          		<rect x="222.2" y="201.3" class="st1c" width="251.8" height="60.1"/>
+                          		<text transform="matrix(1 0 0 1 222.1565 214.7934)"><tspan x="0" y="0" class="st2c st3c st4c">Su color es variable: entre </tspan><tspan x="0" y="21.6" class="st2c st3c st4c">rubio, amarillos-grises hasta </tspan><tspan x="0" y="43.2" class="st2c st3c st4c">pardo-rojizo.</tspan></text>
+                            </g>  
+                            <g>
+                          		<rect x="222.2" y="107.9" class="st1c" width="225" height="63.7"/>
+                          		<text transform="matrix(1 0 0 1 222.1565 121.4275)"><tspan x="0" y="0" class="st2c st3c st4c">Puede medir hasta 2.8 </tspan><tspan x="0" y="21.6" class="st2c st3c st4c">metros de largo, 80 cms. de </tspan><tspan x="0" y="43.2" class="st2c st3c st4c">altura y pesar 80 kgs.</tspan></text>
+                            </g>
+                  	  
+                  	         <rect x="222.2" y="21.5" class="st1c" width="251.8" height="56.7"/>
+                  	         <text transform="matrix(1 0 0 1 222.1565 35.0188)"><tspan x="0" y="0" class="st2c st3c st4c">Felino esbelto y ágil de gran </tspan><tspan x="0" y="21.6" class="st2c st3c st4c">tamaño que habita en toda </tspan><tspan x="0" y="43.2" class="st2c st3c st4c">América.</tspan></text>
+                          </g>
+                          </svg>
+                  </svg>
+                </figure>
+              </div>
         </div>
-
-<!--MAPA-->
-<div class="row justify-content-center">
- 
-        
-        <iframe id="mapa1" class="d-none d-sm-block" src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-		
-		<iframe id="mapa2" class="d-sm-none" src="https://www.google.com/maps/d/embed?mid=1esQ1sm9jwlz95_tFVYAYjiB3rAgkxi7v" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-
-     
- </div>
-
-    <div class="barra_mediana"></div>
-	
-<!--Motivos por el que bajan-->
-    <div class="row justify-content-center">
-		<div class="col-6"> 
-        	<h3>¿Por qué los pumas se aventuran más y más en la ciudad?</h3>
-       		<br>
-        	<p> Según un estudio del <b>Centro UC CAPES</b> explica a través de características, hábitat y comportamientos del felino que  existen distintas razones por las cuales los pumas bajan a la ciudad. </p> 
-        </div>	
-       
-
-    </div>
-
-
-<!--INFOGRAFIA PUMA CC-->
-
-
-	
-<!--COMPU-->
-<div class="d-none d-sm-block">
-
-</div>
-
-
-		
-	
-<!--Cel-->
-<div class="d-sm-none" >
-</div>
-
-    <!-- <div class="imgcaracteristicas_web">
-      <img class="d-none d-sm-block" src="img/caractisticas_web.png">
-        </div>-->
-
-
-
-
-  <div class="barra_mediana"></div>
-
 <!--PARALLAX-->
-    <div class="row justify-content-center">
-        <div class="col-md-6 col-sm-6">
-            <div class="parallax1"></div>
-        </div>
-
-        <div class="col-md-6 col-sm-6">
-             </br>
-             <h3 id="margentitulo">Hábitat del Puma en la cordillera y precordillera de la Región Metropolitana</h3>
-            <p id="margen"> Puede encontrarse tanto en plena cordillera como en bosques densos, pues puede adaptarse a cualquier ambiente,
-          desde el nivel del mar hasta los 5.000 mts. de altitud. (Gochile.cl, 2019) </p>
-        </div>
-
-        <div class="barraparallax"></div>
-
-
-        <div class="col-md-6 col-sm-6">
-            <div class="parallax2"></div>
-        </div>
-
-        <div class="col-md-6 col-sm-6 ">
-             </br>
-             <h3 id="margentitulo">El puma es un mamífero que recorre grandes áreas marcando su territorio y buscando alimento</h3>
-            <p id="margen"> “Los pumas tienen un rango de movimiento bastante amplio; suelen deambular en radios del orden de kilómetros.Al estudiar la ecología Puma concolor en el Parque Nacional Torres del Paine concluyeron que los rangos de hogar en esa zona varían entre 24 y 107 km2, llegando hasta 260 km2 en otros casos. </p>
-        </div>
-
-        <div class="barraparallax"></div>
-
-
-        <div class="col-md-6 col-sm-6 col-xs-1">
-            <div class="parallax3"></div>
-        </div>
-
-        <div class="col-md-6 col-sm-6 col-xs-1">
-             </br>
-             <h3 id="margentitulo">Invasión del hábitat</h3>
-            <p id="margen"> “A medida que los sectores altos de la ciudad se van expandiendo hacia zonas precordilleranas, y cada vez más gente puebla estos espacios, más invadimos el hábitat del puma,relegando a éste hacia la cordillera. Aparte de esa presión física, o geográfica, también hay una presión indirecta, al haber más gente, demandamos y sobreexplotamos recursos como el agua, impidiendo que la vida en los entornos naturales se desarrolle plenamente”. </p>
-        </div>
-
-        <div class="barraparallax"></div>
-
-
-    </div>
-
-</header>
-
-<!--NUDO-->
-<main class="container">
-<div class="row justify-content-center">
-
-
-
-
-<!--CRECIMIENTO URBANO-->
-    <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-6">
-            <h3> Invasión del hábitat animal por el crecimiento urbano</h3>
-          </br>
-            <p> En la actualidad hay cifras de crecimiento de aproximadamente un 25% de la ciudad de Santiago, provocando <b>reemplazos de suelos y de hábitats de fauna nativa</b>; esto se debe 2 principales razones  al cambio de uso o cobertura de suelo; y a las dinámicas del aumento de la población.</p>
-          </br>
-        </div>
-    </div>
-
-
-
-<div class="row row-no-gutters">
-<!--INFO-->
-    <div class="col-md-6 col-xs-1">
-        <div class="row justify-content-center">
-        <div class="col-sm-6 col-md-9 col-lg-9">
-            </br>
-            <p> <b>1.-Aumento demográfico.</b> la población de la Región Metropolitana pasó desde el 2002 al 2017 de 6.061.185 de habitantes a 7.112.808 habitantes </p>
-
-            <p> <b> Consecuencias:</b> provoca efectos en el mayor uso de espacios naturales cercanos (que se evidencia en el aumento de ascensos a los cerros vecinos) y el aumento de mascotas domésticas (perros y gatos) </p>
-
-            <p> <b>2.-Reemplazos de suelos.</b> A pesar de que se han estipulado y planificado los usos del territorio  con el PRMS (Plan Regulador Metropolitano) ,los intereses de los grupos de poder modifican estos términos a su favor.</p>
-        </div>
-        </div>
-    </div>
-    <!--MAPA-->
-    <div class="col-sm-6 col-lg-6">
-        <!--COMPU-->
-        <div class="col-12">
-              <g id="primerGrupoGrande" class="esconder">
-              		<img src="img/mapaurbano.png">
-              	</g>
-
-              	<g id="segundoGrupoGrande" class="esconder">
-              		<img src="img/mapaurbano2.png">
-              	</g>
-        </div>
-        <!--CEL-->  <!--Pendiente hasta arreglar la version del compu-->
-        <div class="col-12">
-                <g id="primerGrupopequeño" class="esconder">
-                    <img src="img/mapaurbanocel.png">
-                </g>
-
-                <g id="segundoGrupopequeño" class="esconder">
-                    <img src="img/mapaurbanocel2.png">
-                </g>
-        </div>
-   </div>
-</div>
-
-    <div class="barra_pequeña"></div>
-<!--REGULACION DE URBANIZACION-->
-<div class="row justify-content-center">
-	   <div class="col-sm-6 col-lg-6">
-            <h3>Regulación de urbanización</h3>
-            </br>
-            <p>Ante el rápido crecimiento de la ciudad, se realizó una <b>actualización del Plan Regulador Metropolitano de Santiago (PRMS) en 2013</b> como respuesta a las proyecciones de crecimiento demográfico en la ciudad, especialmente en las comunas periféricas.</p>
-            </br>
-
-            <p><b>¿En qué consiste el Plan?</b></p>
-            <p>Busca crear 6.500 hectáreas de desarrollo urbano a partir del cambio de uso de suelo de hectáreas rurales, incluyéndose además  800 hectáreas de reconversión del actual suelo industrial, más 2.600 hectáreas de nuevas áreas verdes y forestadas.</p>
-            </br>
-
-            <p><b>Efectos del PRMS</b></p>
-            <p>-Las viviendas de Santiago han experimentado un alza sostenida en los últimos 7 años desde la aprobación del PRMS 100 (Goplaceit.com, 2019). </p>
-
-            <p>-Se legalizan urbanizaciones sobre suelo agrícola restringidos a favor de las inmobiliarias sin importar que haya existido un ordenamiento territorial que definía conservarlos y protegerlos.</p>
-            <p>-El aumento del límite urbano hacia los sectores rurales, ha provocado sequías y los efectos descritos en la fauna nativa</p>
-            <p>-Disminución de Áreas Verdes en general en la Región Metropolitana y sus alrededores
-
-         </div>
-    </div>
-
-    
-    <div class="barra_mediana"></div>
-
-
-<!--ILUSTRACIÓN CONSTITUCION+PUMAS-->
-    <div class="row justify-content-center">
-        <img class="col-12" src="img/pumasconstitucion.png">
-    </div>
-
-
-    <div class="barra_pequeña"></div>
-
-
-<!--DERECHOS DE FAUNA NATIVA EN CONSTITUCIÓN-->
-<div class="row justify-content-center">
-	<div class="col-sm-6 col-lg-6">
-		<h3> Derechos de fauna nativa en constitución</h3>
-        </br>
-        <p><b>LEY 20380. SOBRE PROTECCIÓN DE ANIMALES</b></p>
-
-        <p><b>Artículo 1°.-</b>Esta ley establece normas destinadas a conocer, proteger y respetar a los animales, como seres vivos y parte de la naturaleza, con el fin de darles un trato adecuado y evitarles sufrimientos innecesarios.</p>
-        <p><q><b>La libertad de movimiento de los animales silvestres no debe ser restringida</b> de manera innecesaria, especialmente si ello les ocasiona <b>sufrimiento y alteración de su normal desarrollo.</b></i></q></p>
-        <p>Sin embargo, siguen existiendo situaciones en las que se comprueba la falta de protocolos y estrategias para el cuidado y rescate de estos sin ocasionarles daño.</p>
-    </div>
-</div>
-
- <img class="col-12" src="img/caida.gif">
-    
-    <div class="col-sm-6 col-lg-6">
-        <p><a href="https://www.latercera.com/nacional/noticia/ascenso-caida-puma-volvio-reclamar-dominios/470132/" target="_blank">FALTA DE PROTOCOLO EN RESCATES</a></p>
-    
-        <h3><i>"no existen protocolos para animales silvestres en lugares urbanos. Existen de mantención, pero los protocolos son de cuidado. No existe un protocolo escrito (...)</i> </h3>
-	    <p>-Horacio Bórquez, director del SAG</p>
-	</div>
-
- <img class="col-12" src="img/pirulo.jpg">
-    <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-6">
-            <p> <a href="https://segreader.emol.cl/2019/01/15/A/IB3HJP4J/light?gt=180001"target="_blank">DOMESTICACIÓN</a> tratar de domesticar a la fauna silvestre, le produce al animal un grave perjuicio, ya que pierde las enseñanzas que la madre les entrega sobre como desenvolverse adecuadamente en su hábitat.</p>
-        </div>
-    </div>
-	
-
-    <div class="barra_pequeña"></div>
-
-<!--CAMBIOS A CONSIDERAR PARA LA NUEVA CONSTITUCIÓN-->
-    <div class="row justify-content-center">
-	<div class="col-sm-6 col-lg-6">
-        <h3>Cambios a considerar para la nueva consitución</h3>
-        <p>Una Nueva Constitución es una oportunidad para replantear en torno a lo jurídico la relación la población con el resto de los animales.En la actualidad, la ley no establece a estos seres vivos como sujetos de derechos, sino que los califica como bienes muebles.</p>
-        <p><b>¿Cómo podemos abordar estas problemáticas en la Nueva Carta Magna?</b> </p>
-        <p>-Investigar países que ya están implementando a los animales en sus constituciones: Alemania, por ejemplo, dio rango constitucional a la protección de los animales en 2002 </p>
-        <p>-Abordar la problemática desde una mirada integral de la protección animal: Contemplar todas las especies de animales, domésticos, de ganado y fauna silvestre. </p>
-        <p>-Proponer más órganos públicos dedicados a su protección</p>
-        <p> <q> <i>debemos vernos como una especie más en el planeta,
-         no una superior ni inferior, sino que parte de la biodiversidad
-         y por lo mismo ser respetuosos con el entorno natural,
-         ya que no somos ajenos a factores ecológicos como pandemias,
-         el cambio climático ni destrucción de hábitats, por nombrar algunos.</i> </q> </p>
-        <p>-Médico veterinario Diego Peñaloza </p>
-	</div>
-    </div>
-
-
-<!--links con Caras de Pumas-->
-
-        
-        	 <div class= "row justify-content-center">
-        	 	<div class="col-6">
-                    <div class="icono">
-            <a href="https://www.efeverde.com/noticias/atrapan-puma-santiago-chile-y-buscan-mas-ejemplares/" target="_blank"> <img src="img/carapuma1.png" ></a>
-            <a href="link de la noticia" target="_blank"> <img src="img/carapuma2.png" ></a>
-            <a href="link de la noticia" target="_blank"> <img src="img/carapuma3.png" ></a>
-            <a href="link de la noticia" target="_blank"> <img src="img/carapuma4.png" ></a>
-            <a href="link de la noticia" target="_blank"> <img src="img/carapuma5.png" ></a>
-            <a href="link de la noticia" target="_blank"> <img src="img/carapuma6.png" ></a>
-        </div>
+            <div class="row">
+              <div class="col-4 col-sm-6">
+                <div class="parallax1"></div>
+              </div>
+              <div class="col-8 col-sm-6 align-self-center">
+                <h3 class="my-3 text-center">Hábitat del Puma en la cordillera y precordillera de la Región Metropolitana</h3>
+                <p>Puede encontrarse tanto en plena cordillera como en bosques densos, pues puede adaptarse a cualquier ambiente,desde el nivel del mar hasta los 5.000 mts. de altitud. (Gochile.cl, 2019)</p>
+              </div>
             </div>
-    </div>
-</main>
-<footer>
+            
+            <div class="row">
+              <div class="col-4 col-sm-6">
+                <div class="parallax2"></div>
+              </div>
+              <div class="col-8 col-sm-6 align-self-center">
+                <h3 class="my-3 text-center">El puma es un mamífero que recorre grandes áreas marcando su territorio y buscando alimento</h3>
+                  <p>
+                    “Los pumas tienen un rango de movimiento bastante amplio; suelen deambular en radios del orden de kilómetros.Al estudiar la ecología Puma concolor en el Parque Nacional Torres del Paine concluyeron que los rangos de hogar en esa zona varían entre 24 y 107 km2, llegando hasta 260 km2 en otros casos.
+                  </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 col-sm-6">
+                <div class="parallax3"></div>
+              </div>
+        </div>
+        </div>
+      </article>
+<!--PARALLAX FIN-->
+      <article id=Invasión>
+        <section id=Intro>
+          <div class="container">
+            <div class="row">
+              <div class="col-8 col-sm-6">
+                <h3 class="my-3 text-center">Invasión del hábitat</h3>
+                <div class="col-sm-6">
+                  <p>
+                    “A medida que los sectores altos de la ciudad se van expandiendo hacia zonas precordilleranas, y cada vez más gente puebla estos espacios, más invadimos el hábitat del puma,relegando a éste hacia la cordillera. Aparte de esa presión física, o geográfica, también hay una presión indirecta, al haber más gente, demandamos y sobreexplotamos recursos como el agua, impidiendo que la vida en los entornos naturales se desarrolle plenamente”.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/mapaurbanizaciom.gif" class="col-12">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!--Grafico-->
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-11 col-sm-6 mx-auto">
+                <h5 class="pt-5 text-center">CENSO 2002</h5>
+                  <p class="d-flex justify-content-between align-items-center border-bottom pb-2 small"><span class="text-black-50">Habitantes   en RM</span></p> 
+                  <div class="row" id="2002"></div>
+              </div>
+              <div class="col-11 col-sm-6 mx-auto">
+                <h5 class="pt-5 text-center">CENSO 2007</h5>
+                <p class="d-flex justify-content-between align-items-center border-bottom pb-2 small"><span class="morado">+1.051.623</span> <span class="text-black-50">Población</span></p>
+                  <div class="row" id="jurel"></div>
+              </div>
+            </div>
+
+            <div class="row pt-5">
+              <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+                <p>
+                  <strong> Consecuencias:</strong> provoca efectos en el mayor uso de espacios naturales cercanos (que se evidencia en el aumento de ascensos a los cerros vecinos) y el aumento de mascotas domésticas (perros y gatos)
+                </p>     
+                <p>
+                  <b>Reemplazos de suelos.</b> A pesar de que se han estipulado y planificado los usos del territorio con el PRMS (Plan Regulador Metropolitano) ,los intereses de los grupos de poder modifican estos términos a su favor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+<!--FIN Grafico-->
+  
+      <article id="Regulación de urbanización">
+        <div class="container">
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <h3 class="my-5">Regulación de urbanización</h3>
+                <p class="lead">
+                    Ante el rápido crecimiento de la ciudad, se realizó una <b>actualización del Plan Regulador Metropolitano de Santiago (PRMS) en 2013</b> como respuesta a las proyecciones de crecimiento demográfico en la ciudad, especialmente en las comunas periféricas.
+                </p>
+            </div>
+            <div class="col-11 mx-auto text-center my-5">
+              <p>BORRAR E INSERTAR GRAFICO ¿En qué consiste el Plan?</p>
+            </div>
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <p>
+                  Busca crear 6.500 hectáreas de desarrollo urbano a partir del cambio de uso de suelo de hectáreas rurales, incluyéndose además 800 hectáreas de reconversión del actual suelo industrial, más 2.600 hectáreas de nuevas áreas verdes y forestadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+<!--Efectos del PRMS-->
+      <article id="Efectos del PRMS">
+        <div class="container">
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <h4 class="my-5 text-center">Efectos del PRMS</h4>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-3">
+                <div class="hover">
+                  <p>Las viviendas de Santiago han experimentado un alza sostenida en los últimos 7 años desde la aprobación del PRMS 100 (Goplaceit.com, 2019).</p>
+                </div>
+                <div class="overlay">
+                  <img src="img/1-mas-viviendas.gif" class="col-12" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="hover">
+                  <p>Se legalizan urbanizaciones sobre suelo agrícola restringidos a favor de las inmobiliarias sin importar que haya existido un ordenamiento territorial que definía conservarlos y protegerlos.</p>
+                </div>
+                <div class="overlay">
+                  <img src="img/2-suelo-agrícola.gif" class="col-12" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="hover">
+                  <p>El aumento del límite urbano hacia los sectores rurales, ha provocado sequías y los efectos descritos en la fauna nativa. </p>
+                </div>
+                <div class="overlay">
+                  <img src="img/3-sequía.gif" class="col-12" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="hover">
+                  <p>Disminución de Áreas Verdes en general en la Región Metropolitana y sus alrededores.</p>
+                </div>
+                <div class="overlay">
+                  <img src="img/4-menos-verde.gif" class="col-12" />
+                </div>
+              </div>
+          </div>
+        </div>
+      </article>
+
+<!--CONSTITUCIÓN-->
+      <article id="fauna en constitución">
+        <div class="container">
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <h3 class="my-5 text-center">Derechos de fauna nativa en constitución</h3>
+                <img src="img/pumas_consti_web.gif" class="w-100" />
+              <h5 class="my-5 text-center">LEY 20380. SOBRE PROTECCIÓN DE ANIMALES</h5>
+                    <p class="lead">Artículo 1°.</p>
+                    <p>Esta ley establece normas destinadas a conocer, proteger y respetar a los animales, como seres vivos y parte de la naturaleza, con el fin de darles un trato adecuado y evitarles sufrimientos innecesarios.</p>
+                    <p class="lead">Artículo 3°.</p>
+                    <p>La libertad de movimiento de los animales silvestres no debe ser restringida de manera innecesaria, especialmente si ello les ocasiona sufrimiento y alteración de su normal desarrollo.</p>
+                    <p class="small">Sin embargo, siguen existiendo situaciones en las que se comprueba la falta de protocolos y estrategias para el cuidado y rescate de estos sin ocasionarles daño.</p>
+
+                    <div class="row my-5">
+                      <div class="col-sm-4">
+                        <img class="img-fluid" src="img/caida.gif" />
+                      </div>
+                      <div class="col-sm-8">
+                        <h4><a href="https://www.latercera.com/nacional/noticia/ascenso-caida-puma-volvio-reclamar-dominios/470132/" target="_blank">Falta de protocolo en rescate</a></h4>
+                        <p>
+                          "No existen protocolos para animales silvestres en lugares urbanos. Existen de mantención, pero los protocolos son de cuidado. No existe un protocolo escrito (...)"" – Horacio Bórquez, director del SAG.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row my-5">
+                      <div class="col-sm-8 sm-order-2">
+                        <h4><a href="https://segreader.emol.cl/2019/01/15/A/IB3HJP4J/light?gt=180001" target="_blank">Domesticación</a></h4>
+                        <p>Tratar de domesticar a la fauna silvestre, le produce al animal un grave perjuicio, ya que pierde las enseñanzas que la madre les entrega sobre como desenvolverse adecuadamente en su hábitat.</p>
+                      </div>
+                      <div class="col-sm-4 sm-order-1">
+                        <img class="img-fluid" src="img/pirulo.jpg" />
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+<!--Cambios a Considerar-->
+      <article id="Cambios a Considerar">
+        <div class="container">
+          <div class="row">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mx-auto">
+              <h3 class="text-center">Cambios a considerar para la nueva constitución</h3>
+                <img src="img/puma_mano.gif" class="img-fluid my-5" />
+                <p>
+                  Una Nueva Constitución es una oportunidad para replantear en torno a lo jurídico la relación la población con el resto de los animales.En la actualidad, la ley no establece a estos seres vivos como sujetos de
+                  derechos, sino que los califica como bienes muebles.
+                </p>
+                <p><b>¿Cómo podemos abordar estas problemáticas en la Nueva Carta Magna?</b></p>
+                <p>-Investigar países que ya están implementando a los animales en sus constituciones: Alemania, por ejemplo, dio rango constitucional a la protección de los animales en 2002.</p>
+                <p>-Abordar la problemática desde una mirada integral de la protección animal: Contemplar todas las especies de animales, domésticos, de ganado y fauna silvestre.</p>
+                <p>-Proponer más órganos públicos dedicados a su protección.</p>
+                <p>-La nueva redacción podría incluir y definir qué tipo de ciudades queremos y cómo se planificaran y regularan sus crecimientos.</p>
+                <p>-Regular mejor el poder de los privados como las inmobiliarias o empresas extractivistas en en los respectivos usos de suelos.</p>
+                <p>
+                  <i>
+                   "Debemos vernos como una especie más en el planeta,no una superior ni inferior, sino que parte de la biodiversidad y por lo mismo ser respetuosos con el entorno natural, ya que no somos ajenos a factores ecológicos como pandemias, el cambio climático ni destrucción de hábitats, por nombrar algunos."
+                  </i>
+                </p>
+                <p align="right">Médico veterinario Diego Peñaloza</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+
 <!-- ¿Quieres saber más del tema? -->
-	<div class="container mt-5 py-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="text-center"> ¿Quieres saber más del tema? </h4>
-                <h5 class="text-center mb-5"> Visita los siguientes links para mayor información </h5>
-
-        <div class="row">
-                <div class="col-md-4 col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-                <div class="row no-gutters">
-                	<div class="col-3 col-sm-4">
-                    <img src="img/puma_ciudad.jpg" class="card-img" alt="¿Por qué los pumas se aventuran en la ciudad?" />
-                	</div>
-
-                	<div class="col-9 col-sm-8">
-                	<div class="card-body">
-                    <h6 class="card-title"><a href="http://www.capes.cl/2020/03/por-que-los-pumas-se-aventuran-mas-y-mas-en-la-ciudad/" target="_blank">¿Por qué los pumas se aventuran a la ciudad?</a></h6>
-                	</div>
-                    </div>
-                </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-                <div class="row no-gutters">
-                    <div class="col-3 col-sm-4">
-                    <img src="img/expansion.jpg" class="card-img" alt="plataformaurbana" />
-                    </div>
-
-                    <div class="col-9 col-sm-8">
-                    <div class="card-body">
-                    <h6 class="card-title"><a href="https://www.plataformaurbana.cl/archive/2010/10/12/expansion-urbana-de-santiago-las-soluciones-al-problema-del-crecimiento-a-partir-del-prms/" target="_blank">Expansión Urbana de Santiago y PMRS</a></h6>
-                    </div>
-                    </div>
-
-                </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-               	<div class="row no-gutters">
-               	 	<div class="col-3 col-sm-4">
-                    <img src="img/ley-cholito.jpg" class="card-img" alt="LEY 20380" />
-                	</div>
-                	<div class="col-9 col-sm-8">
-                	<div class="card-body">
-                	<h6 class="card-title"><a href="https://www.bcn.cl/leychile/navegar?idNorma=1006858" target="_blank">LEY 20380. SOBRE PROTECCIÓN DE ANIMALES</a></h6>
-                	</div>
-                	</div>
-
-                </div>
-                </div>
-                </div>
-
+  <aside>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center">¿Quieres saber más del tema?</h4>
+          <h5 class="text-center mb-5 text-white-50">Visita los siguientes links para mayor información</h5>
         </div>
-        	</div>
+        <div class="col-md-4 col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+              <div class="col-3 col-sm-4">
+                <img src="img/puma_ciudad.jpg" class="card-img" alt="¿Por qué los pumas se aventuran en la ciudad?" />
+              </div>
 
+              <div class="col-9 col-sm-8">
+                <div class="card-body">
+                  <h6 class="card-title"><a href="http://www.capes.cl/2020/03/por-que-los-pumas-se-aventuran-mas-y-mas-en-la-ciudad/" target="_blank">¿Por qué los pumas se aventuran a la ciudad?</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+               <div class="col-3 col-sm-4">
+                  <img src="img/expansion.jpg" class="card-img" alt="plataformaurbana" />
+                </div>
+
+                <div class="col-9 col-sm-8">
+                  <div class="card-body">
+                    <h6 class="card-title">
+                      <a href="https://www.plataformaurbana.cl/archive/2010/10/12/expansion-urbana-de-santiago-las-soluciones-al-problema-del-crecimiento-a-partir-del-prms/" target="_blank">Expansión Urbana de Santiago y PMRS </a>
+                    </h6>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+              <div class="col-3 col-sm-4">
+                <img src="img/ley-cholito.jpg" class="card-img" alt="LEY 20380" />
+              </div>
+              <div class="col-9 col-sm-8">
+                <div class="card-body">
+                  <h6 class="card-title"><a href="https://www.bcn.cl/leychile/navegar?idNorma=1006858" target="_blank">LEY 20380. SOBRE PROTECCIÓN DE ANIMALES</a>
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <h4 class="text-center">Otros animales afectados</h4>
+        </div>
+        <div class="col-md-4 col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+              <div class="col-3 col-sm-4">
+                <img src="img/condor.png" class="card-img" alt="Dos cóndores llegan al balcón de un departamento en Las Condes" />
+              </div>
+
+              <div class="col-9 col-sm-8">
+                <div class="card-body">
+                  <h6 class="card-title"><a href="https://www.milenio.com/virales/fauna/condores-visitan-balcon-departamento-acechan-perro-chile" target="_blank">Cóndor</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+              <div class="col-3 col-sm-4">
+                <img src="img/halcon.jpg" class="card-img" alt="Rescatan a halcón peregrino que deambulaba en plena vía pública de Quinta Normal" />
+              </div>
+              <div class="col-9 col-sm-8">
+                <div class="card-body">
+                  <h6 class="card-title"><a href="https://www.24horas.cl/nacional/rescatan-a-halcon-peregrino-que-deambulaba-en-plena-via-publica-de-quinta-normal-1851467" target="_blank">Halcón Peregrino</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 mt-1 mb-3">
+          <div class="card shadow-sm">
+            <div class="row no-gutters">
+              <div class="col-3 col-sm-4">
+                <img src="img/zorro.jpg" class="card-img" alt="Ejemplar de zorro es avistado en vivienda de San Antonio" />
+              </div>
+              <div class="col-9 col-sm-8">
+                <div class="card-body">
+                  h6 class="card-title"><a href="https://www.t13.cl/noticia/nacional/encuentran-zorro-patio-san-antonio-24-03-2020" target="_blank">Zorro silvestre</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  <article>
+
+  <aside>
+    <section id="Cierre noticias">
+      <div class="col-12">
+        </br></br>
+        <img src="img/cierre.png">
+      </div>
+    </section>
+  </aside>
+</main>
 
 
-<!-- otros animales afectados -->
-	<div class="container mt-5 py-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="text-center"> Otros animales afectados</h4>
 
-
-        <div class="row">
-                <div class="col-md-4 col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-                <div class="row no-gutters">
-                	<div class="col-3 col-sm-4">
-                    <img src="img/condor.png" class="card-img" alt="Dos cóndores llegan al balcón de un departamento en Las Condes" />
-                	</div>
-
-                	<div class="col-9 col-sm-8">
-                	<div class="card-body">
-                    <h6 class="card-title"><a href="https://www.milenio.com/virales/fauna/condores-visitan-balcon-departamento-acechan-perro-chile" target="_blank">Cóndor</a></h6>
-                	</div>
-                    </div>
-                </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-                <div class="row no-gutters">
-                    <div class="col-3 col-sm-4">
-                    <img src="img/halcon.jpg" class="card-img" alt="Rescatan a halcón peregrino que deambulaba en plena vía pública de Quinta Normal" />
-                    </div>
-
-                    <div class="col-9 col-sm-8">
-                    <div class="card-body">
-                    <h6 class="card-title"><a href="https://www.24horas.cl/nacional/rescatan-a-halcon-peregrino-que-deambulaba-en-plena-via-publica-de-quinta-normal-1851467" target="_blank">Halcón Peregrino</a></h6>
-                    </div>
-                    </div>
-
-                </div>
-                </div>
-                </div>
-
-                <div class="col-md-4 col-lg-4 mt-1 mb-3">
-                <div class="card shadow-sm">
-               	<div class="row no-gutters">
-               	 	<div class="col-3 col-sm-4">
-                    <img src="img/zorro.jpg" class="card-img" alt="Ejemplar de zorro es avistado en vivienda de San Antonio" />
-                	</div>
-                	<div class="col-9 col-sm-8">
-                	<div class="card-body">
-                	<h6 class="card-title"><a href="https://www.t13.cl/noticia/nacional/encuentran-zorro-patio-san-antonio-24-03-2020" target="_blank">Zorro silvestre</a></h6>
-                	</div>
-                	</div>
-
-                </div>
-                </div>
-                </div>
-
-        </div>
-        	</div>
-
-        </div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col border-top pt-3">
+        <p class="d-flex justify-content-between align-items-center">
+        <a href="<!--reemplaza con la url de la organización en github-->">KūgāGraphic</a>
+        <span><a href="https://github.com/KugaGraphic">Infografía Digital</a> <span class="d-none d-lg-inline">&bull; Viernes 11 de diciembre, 2020</span></span>
+        </p>
+      </div>
     </div>
-
+  </div>
 </footer>
 
- <!--Javascript-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                var total = $(window).height();
-                if (scroll >= 3200) {
-                    $("#primerGrupoChico").addClass("esconder");
-                    $("#primerGrupoGrande").addClass("esconder");
-                    $("#segundoGrupoChico").removeClass("esconder");
-                    $("#segundoGrupoGrande").removeClass("esconder");
-                } else {
-                    $("#primerGrupoChico").removeClass("esconder");
-                    $("#primerGrupoGrande").removeClass("esconder");
-                    $("#segundoGrupoChico").addClass("esconder");
-                    $("#segundoGrupoGrande").addClass("esconder");
-                }
+      <!--Javascript-->
+      <script src='rellax.min.js'></script>
+      <script src='index.js'></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-            });
+        <script>
+            for (let a = 0; a < 25; a++) {
+                if (a < 25) {
+                    $("#2002").append('<div class="col-2"><img src="img/persona.png" class="img-fluid artesanal"></div>');
+                } else {
+                    $("#2002").append('<div class="col-2"><img src="img/persona.png" class="img-fluid"></div>');
+                }
+            }
+            for (let j = 0; j < 30; j++) {
+                if (j < 25) {
+                    $("#2017").append('<div class="col-2"><img src="img/persona.png" class="img-fluid artesanal"></div>');
+                } else {
+                    $("#2017").append('<div class="col-2"><img src="img/persona.png" class="img-fluid"></div>');
+                }
+            }
         </script>
+
+
 
   </body>
 </html>
